@@ -1,4 +1,12 @@
-## Hi there 👋
+## Hello world! This repository holds information about significant aerospace-related projects I have completed during my time at Iowa State and a bit before. These projects range from 2021-2026. 
+## UAV Design
+## Lunar Orbiter Mission
+## Technical Instruction Writing
+## Aircraft Conceptual Design
+## Solidworks Aircraft Replica
+## Python Orbital Mechanics
+## Airship Research Projects
+
 
 <!--
 **maurora42/maurora42** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
