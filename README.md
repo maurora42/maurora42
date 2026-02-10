@@ -1,25 +1,5 @@
 ## Hello world! This repository holds information about significant aerospace-related projects I have completed during my time at Iowa State and a bit before. These projects range from 2021-2026. 
 ## UAV Design
-\begin{itemize}
-\item Role: Design Team Member and Design Team Lead in training
-
-\item Project Objective: I currently work with a team of around 30 undergraduate and graduate students to create a configurable, open-source, 3D-printable aircraft at Iowa State University. 
-
-\item Processes: I work on iterating future designs of our plane and implementing the edits requested by the Manufacturing Subteam for our current design. I primarily work with SolidWorks, Computational Fluid Dynamics (CFD) simulations such as Star-CCM, and XFLR5 airfoil analysis as we iterate our aircraft. We are constantly improving our previous year’s designs, such as Pluma (seen below in Images), and creating new models by running our designs through drag analysis simulations and referencing existing aircraft. As such, I have designed and led my teammates in optimizing fuselages, wings, tail assemblies, and internal aircraft structures that help with Design for Manufacturing (DFM). As a team, we are in the process of writing a research paper for the AIAA Conference which will be hosted at Iowa State. 
-
-\item Individual Task Spotlight: One major issue we have encountered is the wingspan and chord length of our aircraft's main wing. We are limited by the bed size of the 3D printer in our lab, but need to maintain structural integrity inside the wing so that it can resist the forces it will encounter during the eventual flight test. I was charged with the following in our preliminary design: selecting where the wing breaks would occur on our print, and editing our fuselage to allow for ease of component access for the Electrical Subteam as well as leave the center of gravity adjustable. 
-
-\begin{itemize}
-\item Wing Break:
-To determine our wing break locations, I first collaborated with the Manufacturing Subteam to confirm our 3D printer constraints. Initially, the chord of our wing would not be printable. I had to make a few small edits to the Aspect Ratio of our wing, making the chord smaller but increasing the span to ensure the chord would be within the bounds of our 3D printer, and that the lift coefficient stayed the same. As a design team, we re-ran the drag analysis software and found that the difference in profile drag by increasing the wing length was negligible. After our dimensions were re-finalized and approved by the team, I moved forward with editing the model. Two main forces need to be considered on the wing to determine the print separation location: aerodynamic forces and the forces from the propellers. Each wing has one propeller aligned with the chord, approximately one-third down the wing. I selected to cut each wing into two separate files that reach nearly the maximum print height. The inner part file contains both the fuselage connection and the motor mount, to ensure that the high stresses would all be directly and firmly connected to the fuselage. The outer wing part file contains the ailerons and is connected to the rest of the wing using two spars, as it will have less force on it. Ultimately, this wing design will allow us to have as few breaks as possible in the wing's structural continuity and will hold the forces of flight on a purely 3D printed and configurable wing that can easily be adjusted to different airfoils. 
-
-\item Fuselage:
-When editing the fuselage from a purely solid file into one that will contain electronics and other important components, I worked with my team to shell the fuselage and add an access door on top of the aircraft. Previous iterations of our UAV have had side doors, which have led to manufacturing errors where doors or side panels are inadvertently placed backwards, and are difficult or awkward to access when the wings are on the aircraft. In case of a battery fire, I wanted this design to be more accessible. We selected a door on top of the aircraft, as it will increase ease of manufacturability, allow for easy adjustment of our center of gravity when all components are present, and increase the safety of our aircraft in case of emergencies like battery fires. Additionally, having one door will minimize the amount of extra drag due to external hinges (only one hinge is needed for this design, as opposed to previously needing two total, for one on each side). Overall, this fuselage iteration under my direction will be more simple, leading to a sleeker and safer design. 
-\end{itemize}
-\item Team Challenges: The OpenUAS team is fast-paced, meaning it can be difficult to define our requirements. We are constantly documenting changes that make our aircraft “better” than the previous versions, but there is not yet a set end goal of when our aircraft will be complete. We are working as a team to reference professional requirements used by NASA and documentation procedures to ensure that our aircraft is replicable and our processes can be easily followed by an outsider. 
-
-\item Results: We are currently in the process of the next iteration of aircraft, and I was selected to train as the next Design Team Lead for the efforts I put in over my first semester on the team. We have completed a solid base for the next aircraft that is aerodynamically stable, limits drag, and builds on our knowledge from previous iterations. I look forward to another successful semester with the team where we will bring this next theoretical model to Manufacturing and eventually flight, and share our research contributions with others in our field through the AIAA paper. 
-\end{itemize}
 ## Lunar Orbiter Mission
 ## Technical Instruction Writing
 ## Aircraft Conceptual Design
@@ -28,3 +8,213 @@ When editing the fuselage from a purely solid file into one that will contain el
 ## Airship Research Projects
 
 
+# UAV Design  
+**OpenUAS Research Team (2025–Present)**  
+**Role:** Design Team Member; Design Team Lead (in training)
+
+## Project Objective
+I currently work with a team of around 30 undergraduate and graduate students to create a configurable, open-source, 3D-printable aircraft at Iowa State University.
+
+## Processes
+I work on iterating future designs of our plane and implementing edits requested by the Manufacturing Subteam for our current design. I primarily work with **SolidWorks**, **Computational Fluid Dynamics (CFD)** simulations such as **Star-CCM**, and **XFLR5** airfoil analysis as we iterate our aircraft.
+
+We are constantly improving our previous year’s designs, such as *Pluma*, and creating new models by running our designs through drag analysis simulations and referencing existing aircraft. I have designed and led teammates in optimizing:
+
+- Fuselages  
+- Wings  
+- Tail assemblies  
+- Internal aircraft structures with Design for Manufacturing (DFM) considerations  
+
+As a team, we are currently writing a research paper for the **AIAA Conference** hosted at Iowa State University.
+
+## Individual Task Spotlight
+One major issue we encountered was the wingspan and chord length of the aircraft’s main wing. We are limited by the bed size of the 3D printer while still needing sufficient structural integrity for flight.
+
+I was responsible for:
+- Selecting wing break locations for 3D printing  
+- Editing the fuselage for electrical access  
+- Maintaining an adjustable center of gravity  
+
+### Wing Break
+I collaborated with the Manufacturing Subteam to confirm printer constraints. The initial wing chord was unprintable, so I adjusted the **aspect ratio**, reducing chord length while increasing span to maintain the same lift coefficient.
+
+Re-running drag analysis showed negligible increases in profile drag. Once approved, I edited the model considering:
+
+- Aerodynamic forces  
+- Propeller forces (one propeller per wing, aligned with the chord ~1/3 down the span)
+
+Each wing was split into two printable sections:
+- **Inner wing:** Fuselage connection and motor mount to handle high stresses  
+- **Outer wing:** Ailerons, connected via two spars  
+
+This design minimizes structural discontinuities while allowing airfoil configurability.
+
+### Fuselage
+I led the transition from a solid fuselage to a shelled design capable of housing electronics. Key decisions included:
+
+- A top-mounted access door  
+- Improved manufacturability and accessibility  
+- Increased safety during battery failures  
+- Reduced drag from fewer external hinges  
+
+This resulted in a simpler, sleeker, and safer fuselage.
+
+## Team Challenges
+The OpenUAS team operates at a fast pace, making requirement definition difficult. We are working to:
+
+- Reference NASA-style documentation standards  
+- Create replicable and well-documented processes  
+- Ensure designs are accessible to outside contributors  
+
+## Results
+I was selected to train as the next **Design Team Lead** due to my contributions during my first semester.
+
+The current aircraft iteration:
+- Is aerodynamically stable  
+- Minimizes drag  
+- Builds directly on prior designs  
+
+---
+
+# Lunar Orbiter Mission  
+**AERE 3510 (Fall 2025)**  
+**Role:** Research Lead; Code Contributor; Paper Lead
+
+## Project Objective
+Design a conceptual mission to send a spacecraft from low Earth orbit to lunar orbit, including all impulse vectors and angular constraints, presented using MATLAB simulations.
+
+## Team Processes
+I proposed investigating **lunar lava tubes** using radar instrumentation. I researched existing missions to define realistic initial parameters.
+
+The mission placed a radar-equipped satellite into a circular lunar orbit using:
+- Orbital perturbations  
+- An initial plane-change maneuver  
+
+### MATLAB Code Structure
+The code consisted of four sections:
+1. Orbit altitude evaluation  
+2. Time-of-flight calculations  
+3. Δv calculations  
+4. Optimization of initial conditions  
+
+I authored the first section, calculating:
+- Angular momentum  
+- Orbital altitudes and velocities  
+- Transfer orbit eccentricities  
+- Sphere-of-influence constraints  
+
+## Challenges
+The entire project (MATLAB code, 20-page paper, presentation) was completed in **one week**. I created paper outlines early to streamline integration.
+
+## Results
+- Launch duration: **3.7 days**  
+- Lunar inclination changes: **~3.6 years**  
+- Mission lifespan met realistic satellite constraints  
+
+---
+
+# Technical Instruction Writing  
+**ENGL 3140 (Spring 2025)**
+
+## Project Objective
+Design a paper airplane demonstrating aerodynamic principles and write instructions at a fifth-grade reading level, tested by real students.
+
+## Processes
+The aircraft demonstrated:
+- Steering surfaces (ailerons, flaps)  
+- Center of gravity effects  
+
+I simplified language through iterative drafts, parenthetical definitions, and readability analysis tools.
+
+## Challenges
+Explaining technical concepts to a non-technical audience while maintaining engagement.
+
+## Results
+Student feedback was primarily green and yellow, confirming clarity and accessibility.
+
+---
+
+# Aircraft Conceptual Design  
+**AERE 2610 (Spring 2025)**  
+**Role:** SolidWorks Lead; Wing Design; Moment Balancing Code; Research Contributor
+
+## Project Objective
+Complete a conceptual aircraft design for sub-Mach 0.3 flight.
+
+## Processes
+I proposed a twin-engine, high-wing, T-tail configuration and led:
+
+- Wing aspect ratio calculations  
+- Wing and tail design in SolidWorks  
+- Lift and drag validation using XFLR5  
+- MATLAB and Excel data visualization  
+
+## Challenges
+MATLAB errors caused by mixed unit systems were resolved through hand calculations.
+
+## Results
+- Aircraft range: **15,061.7 km**  
+- Required mission range: **5,536 km**  
+
+---
+
+# SolidWorks Aircraft Replica  
+**AERE 1610 (Spring 2024)**  
+**Role:** SolidWorks Lead; Team Mentor; Presentation Lead
+
+## Project Objective
+Accurately model an existing aircraft in SolidWorks.
+
+## Processes
+I selected the **Airbus Beluga XL** and established image-based scaling using known wing length.
+
+## Challenges
+- Self-intersecting surfaces during nose lofting  
+- Mentoring first-year students  
+
+## Results
+- Fully modeled aircraft  
+- Animated opening fuselage  
+- Realistic skins and branding  
+
+---
+
+# Python Orbital Mechanics  
+**AERE 1600 (Fall 2023)**
+
+## Project Objective
+Simulate a rocket launch and planetary fly-by using Python.
+
+## Processes
+Used nested loops and conditionals to animate trajectory and visualize gravity effects.
+
+## Challenges
+- Debugging a 100+ line script  
+- Defining fly-by parameters through iteration  
+
+## Results
+Sparked long-term interest in orbital mechanics and spaceflight simulation.
+
+---
+
+# Airship Research Projects  
+**IDSEF (2021–2023)**
+
+## Project Objective
+Investigate airship efficiency and environmental benefits compared to drones.
+
+## Processes
+Built and tested two airships using RC helicopter and drone components, custom balsa frames, and helium balloons.
+
+## Challenges
+- Rapid helium deflation  
+- Custom buoyancy fabrication  
+
+## Results
+- More than doubled motor endurance  
+- Published a research paper  
+
+### Awards
+- Mu Alpha Theta Award (Mathematics)  
+- 2nd place in division (both years)  
+- Recognition from the Air Force Science Fair Program  
